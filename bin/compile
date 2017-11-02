@@ -16,6 +16,6 @@ cd $VENDOR_DIR
 curl -L --silent $DOWNLOAD_URL | tar xz
 cd $DOWNLOADED_DIR
 echo "Adding fpcalc to PATH" | indent
-PROFILE_PATH="$BUILD_DIR/.profile.d/fpcalc.sh"
+PROFILE_PATH="$BUILD_DIR/.profile.d/chromaprint.sh"
 mkdir -p $(dirname $PROFILE_PATH)
 echo 'export PATH="$PATH:vendor/'$DOWNLOADED_DIR'"' >> $PROFILE_PATH
