@@ -1,7 +1,7 @@
 #!/bin/sh
 
-DOWNLOAD_URL="https://github.com/acoustid/chromaprint/releases/download/v1.5.0/chromaprint-1.5.0.tar.gz"
-DOWNLOADED_DIR="chromaprint-v1.5.0"
+DOWNLOAD_URL="https://github.com/acoustid/chromaprint/archive/refs/tags/v1.5.0.tar.gz"
+DOWNLOADED_DIR="chromaprint-1.5.0"
 
 BUILD_DIR=$1
 VENDOR_DIR="vendor"
