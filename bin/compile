@@ -17,7 +17,7 @@ curl -L --silent $DOWNLOAD_URL | tar xz
 cd $DOWNLOADED_DIR
 echo "Moving to chromaprint-1.5.0 and attempting build" | indent
 
-cmake -DCMAKE_BUILD_TYPE=Release -DBUILD_TOOLS=ON -DFFMPEG_ROOT=$HOME/vendor/ffmpeg/bin .
+cmake -DCMAKE_BUILD_TYPE=Release -DBUILD_TOOLS=ON .
 make
 make install
 
